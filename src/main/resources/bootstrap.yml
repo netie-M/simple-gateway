@@ -32,3 +32,13 @@ eureka:
 security:
   basic:
     enabled: false
+
+management:
+  endpoint:
+    env:
+      enabled: false
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"
